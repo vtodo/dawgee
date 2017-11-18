@@ -14,5 +14,13 @@
     {
       "url": "heroku/python"
     }
-  ]
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "pip install pylint",
+        "test": "pylint main"
+      }
+    }
+  }
 }
