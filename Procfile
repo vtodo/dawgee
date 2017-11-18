@@ -1,2 +1,2 @@
-web: gunicorn -k tornado BlogTest:app --log-file -
+web: gunicorn -k tornado main:app --log-file -
 
