@@ -19,7 +19,7 @@
     "test": {
       "scripts": {
         "test-setup": "pip install pylint",
-        "test": "pylint main"
+        "test": "pylint dist/main"
       }
     }
   }
