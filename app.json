@@ -1,0 +1,18 @@
+{
+  "name": "dawgee",
+  "description": "src of dawgee.cc",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
